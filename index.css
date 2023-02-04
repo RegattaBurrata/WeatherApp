@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+    box-sizing: border-box;
+    font-family: 'Barlow';
+    color: rgb(237, 237, 237);
+}
+
+body {
+    background: rgb(43, 43, 43);
+}
+
+input {
+    height: 40px;
+    width: 400px;
+    border: none;
+    padding: 0px 0px 0px 12px;
+    font-size: 20px;
+    background: transparent;
+    color: rgb(237, 237, 237);
+    border-bottom: 1px solid rgb(127, 163, 221);
+    outline: none;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+button {
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin: 30px;
+    gap: 10px;
+}
+
+.content {
+    width: 15vw;
+    align-items: left;
+}
+
+.city-title {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.conditions {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.temp {
+    font-size:180px;
+    font-weight: 500;
+}
+
+.feels-like {
+    font-size: 20px;
+}
+
