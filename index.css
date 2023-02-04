@@ -18,14 +18,19 @@ input {
     font-size: 20px;
     background: transparent;
     color: rgb(237, 237, 237);
-    border-bottom: 1px solid rgb(127, 163, 221);
+    border-bottom: 1px solid lightblue;
     outline: none;
+}
+
+::placeholder {
+    opacity: 30%;
 }
 
 form {
     display: flex;
     gap: 10px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20vh;
     align-items: center;
 }
 
@@ -47,24 +52,31 @@ button {
 .content {
     width: 15vw;
     align-items: left;
+    border: 1px solid gray;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.154);
 }
 
 .city-title {
     font-size: 50px;
     font-weight: 800;
+    color: rgb(193, 94, 236)
 }
 
 .conditions {
     font-style: italic;
     font-size: 20px;
+    color: rgb(211, 214, 115);
 }
 
 .temp {
     font-size:180px;
     font-weight: 500;
+    text-align: right;
+    color: lightblue;
 }
 
-.feels-like {
-    font-size: 20px;
+.feels-like, .humidity {
+    font-size: 18px;
 }
-
